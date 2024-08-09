@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0%;
+    padding:0%;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+    font-family: Inter;
+    font-size: 14px;
+   
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:15%;
+    padding: 20px;
+    background-color: hsl(0, 0%, 12%);
+    width: 280px;
+    margin:  0 auto 0 auto;
+    border-radius: 10px;
+    align-items: center;
+   
+}
+.container h2{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;   
+    padding-top: 20px;  
+
+}
+.container h5{
+    color: hsl(75, 94%, 57%);
+    font-family: Inter;
+    font-weight: 600;  
+    padding-top: 5px;   
+}
+
+.container p{
+    color: hsl(0, 0%, 100%);
+    padding-top: 25px;
+}
+
+.container ul{
+    list-style: none;
+    padding-top: 10px;
+}
+
+.container ul li{
+    padding-bottom: 10px;
+    border-radius: 10px;
+    width: 100%;
+    display: inline-block;
+    padding-top: 10px;
+
+}
+
+.container ul li a{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 600;  
+
+}
+
+.container img{
+    border-radius: 50px;
+    width: 80px;  
+
+}
+
